@@ -1,0 +1,16 @@
+summary: employee
+tags: []
+responses:
+'200':
+  description: OK
+  content:
+    application/json:
+      schema:
+        type: object
+        properties:
+          employee_name:
+            type: string
+          employee_role:
+            type: string
+operationId: get-employees-employee_id
+description: Fetch employee’s role/designation by employee’s name
